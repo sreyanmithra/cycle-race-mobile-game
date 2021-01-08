@@ -94,8 +94,9 @@ function draw(){
     
   racer.y=World.mouseY
   
-  if(keyDown("space")){
+  if(touches.length>0||keyDown("space")){
   bellSound.play()
+  touches[]
   }    
   
   edges=createEdgeSprites()
