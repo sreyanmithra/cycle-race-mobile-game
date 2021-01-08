@@ -56,7 +56,7 @@ function setup(){
   obstacle2Group=new Group()
   obstacle3Group=new Group()
   
-  road=createSprite(width/2,width/2)
+  road=createSprite(width/2,height-240)
   road.addImage(roadImage)
   road.velocityX=-7
 
