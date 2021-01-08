@@ -60,7 +60,7 @@ function setup(){
   road.addImage(roadImage)
   road.velocityX=-7
 
-  racer=createSprite(width-600,height/2)
+  racer=createSprite(windowWidth-600,height/2)
   racer.addAnimation("racer",racerImage1)
   racer.scale=0.07
   
